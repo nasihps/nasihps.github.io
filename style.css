@@ -335,6 +335,21 @@
             font-size: 16px;
             margin-right: 30px;
             margin-bottom: 10px;
+            background-color: rgba(50, 50, 50, 0.5); /* Dark translucent grey */
+            padding: 8px 15px;
+            border-radius: 20px; /* Rounded corners */
+        
+        /* Optional hover effect */
+            transition: background-color 0.3s ease;
+        }
+        .tab-links::after{
+            background: none;
+        }
+        .tab-links:hover {
+            background-color: rgba(70, 70, 70, 0.7); /* Slightly lighter on hover */
+        }
+        .tab-links.active-link {
+            background-color: rgba(255, 0, 79, 0.5); /* Your accent color with transparency */
         }
         /**/
         .contact-left, .contact-right{
