@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Tahoma', sans-serif;
+    font-family: "Carme", 'Tahoma', sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -42,7 +42,7 @@ nav ul li{
 nav ul li a{
     color: #ffe6ee;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 21px;
 }
 nav ul li a::after{
     content: '';
@@ -87,11 +87,11 @@ nav ul li a:hover::after{
 }
 .about-col-2{
     flex-basis: 60%;
-    font-size: 21px; /*change*/
+    font-size: 20px; /*change*/
 }
 .about-col-2 p{
     line-height: 1.6;
-    font-size: 21px; /*change*/
+    font-size: 22px; /*change*/
 }
 .summary{
     font-size: 21px; /*change*/
@@ -105,6 +105,10 @@ nav ul li a:hover::after{
     display: flex;
     margin: 20px 0 40px;
 }
+.tab-titles p{
+    font-size: 28px;
+}
+
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
@@ -134,7 +138,7 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: #ff004f;
-    font-size: 20px;
+    font-size: 25px;
 }
 .tab-contents{
     display: none;
@@ -162,19 +166,19 @@ nav ul li a:hover::after{
     transition: background 0.5s, transform 0.5s;
 }
 .projects-list div h2{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 750;
     margin-bottom: 15px;
     color: #ffe6ee;
 }
 .projects-list div p{
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.5;
 }
 .projects-list div a{
     text-decoration: none;
     color: #ff3374;
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 20px;
     display: inline-block;
 }
@@ -275,10 +279,11 @@ nav .fa-solid{
     }
     .header-text{
         margin-top: 100%;
-        font-size: 16px;
+        font-size: 15px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 25px;
+        margin-top: 10px;
     }
     nav .fa-solid{
         display: block;
